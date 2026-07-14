@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "kor.commercial-act"
+           :title "Commercial Act"
+           :jurisdiction "KOR"
+           :kind :law
+           :url "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=54525&lang=ENG"
+           :url-provenance :official-klri-reference-translation
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "kor.personal-information-protection-act"
+           :title "Personal Information Protection Act"
+           :jurisdiction "KOR"
+           :kind :law
+           :url "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=53044&lang=ENG"
+           :url-provenance :official-klri-reference-translation
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "kor.labor-standards-act"
+           :title "Labor Standards Act"
+           :jurisdiction "KOR"
+           :kind :law
+           :url "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=25437&lang=ENG"
+           :url-provenance :official-klri-reference-translation
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
